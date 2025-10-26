@@ -1,0 +1,28 @@
+{
+  "name": "pawtato-backend",
+  "version": "1.0.0",
+  "description": "Backend for Pawtato Finance price tracking",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "collector": "node index.js",
+    "api": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pawtato",
+    "sui",
+    "crypto",
+    "price-tracker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.1",
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.3",
+    "express": "^4.21.1",
+    "node-cron": "^3.0.3"
+  }
+}
